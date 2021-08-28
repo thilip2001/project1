@@ -106,12 +106,12 @@
         font-size: 12px;
         height: 50vh;
         width: 100%;
-        margin-left: auto;
+        margin-left:-13px;
     }
     .contentSubmit{
         position: absolute;
         top: 13px;
-        right:15px;
+        right:10px;
         color: white;
         background-color:teal;
         padding: 10px;
@@ -119,7 +119,7 @@
         border-radius: 15px;
         cursor: pointer;
         font-size: 15px;
-        margin-right: 20px;
+        margin-right: 10px;
     
     }
 }
