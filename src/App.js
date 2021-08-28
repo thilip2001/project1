@@ -10,6 +10,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Youtube from "./pages/youtube/Youtube";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   const user =false;
@@ -31,6 +33,9 @@ function App() {
       </Route>
       <Route path="/content">
       {user ? <Home/> :<Content />}
+      </Route>
+      <Route path="/youtube">
+      {user ? <Home/> :<Youtube />}
       </Route>
       
    </Switch>

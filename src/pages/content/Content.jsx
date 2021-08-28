@@ -1,4 +1,5 @@
-import './content.css'
+import './content.css';
+import { Link } from "react-router-dom";
 
 export default function Content() {
     return (
@@ -17,10 +18,7 @@ export default function Content() {
 
                     </textarea>
                 </div>
-                <button className="contentSubmit">Publish</button>
-                <label className="urlForm">Youtube Link</label>
-                <input className="urlInput" type="link" placeholder="enter your url.." />
-                <button className="urlButton"  type="submit">Search</button>
+                <button className="contentSubmit"><Link className="link" to="/youtube">Publish</Link></button>
             </form>
             
         </div>
