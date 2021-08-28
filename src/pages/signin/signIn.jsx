@@ -9,9 +9,9 @@ export default function SignIn() {
             
             <form className="signinForm">
                 <label>Email</label>
-                <input type="text" className="signinInput" placeholder="Enter your email..."/>
+                <input type="text" className="signinInput" placeholder="Enter your email..." required/>
                 <label>Password</label>
-                <input type="password" className="signinInput" placeholder="Enter your password..."/>
+                <input type="password" className="signinInput" placeholder="Enter your password..." required/>
                 <button className="signinButton"><Link className="link" to="/detail">Sign In</Link></button>
                 
             </form>

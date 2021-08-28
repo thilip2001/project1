@@ -13,8 +13,8 @@ export default function TopBar() {
                     <li className="topListItem">
                         <Link className="link" to="/">Home</Link>
                     </li>
-                    <li className="topListItem"> <Link className="link" to="/signin">Sign In</Link></li>
-                    <li className="topListItem"> <Link className="link" to="/signup">Sign up</Link></li>
+                    <li className="topListItem"> <Link className="link" to="/signin">SignIn</Link></li>
+                    <li className="topListItem"> <Link className="link" to="/signup">Signup</Link></li>
                 </ul>
             </div>
         </div>

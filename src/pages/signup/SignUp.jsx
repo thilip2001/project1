@@ -9,13 +9,13 @@ export default function SignUp() {
             
             <form className="signupForm">
                 <label>Name</label>
-                <input type="text" className="signupInput" placeholder="Enter your name..."/>
+                <input type="text" className="signupInput" placeholder="Enter your name..." required/>
                 <label>Phone</label>
-                <input type="numbers" className="signupInput" placeholder="Enter your mobile number..."/>
+                <input type="numbers" className="signupInput" placeholder="Enter your mobile number..." required/>
                 <label>Email</label>
-                <input type="text" className="signupInput" placeholder="Enter your email..."/>
+                <input type="text" className="signupInput" placeholder="Enter your email..." required/>
                 <label>Password</label>
-                <input type="password" className="signupInput" placeholder="Enter your password..."/>
+                <input type="password" className="signupInput" placeholder="Enter your password..." required/>
                 <button className="signupButton"><Link className="link" to="/signin">Sign Up</Link></button>
                 
             </form>
