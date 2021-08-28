@@ -53,16 +53,16 @@
 @media (max-width: 400px){
     .homeTitle2{
         position: absolute;
-        top: 62%;
-        font-size: 12px;
+        top: 56%;
+        font-size: 15px;
         font-weight: 300;
         margin-left: 20px;
         font-weight: 400;
     }
     .homeTitle1{
         position: absolute;
-        top: 56%;
-        font-size:20px;
+        top: 50%;
+        font-size:22px;
         font-weight: bold;
     
     }
