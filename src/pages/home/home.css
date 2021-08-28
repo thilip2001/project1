@@ -45,7 +45,7 @@
     }
     .homeImg{
         width: 100%;
-        height: 470px;
+        height: 600px;
         object-fit:cover;
     }
     
@@ -66,6 +66,12 @@
         font-weight: bold;
     
     }
+    .homeImg{
+        width: 100%;
+        height:100%;
+        object-fit:cover;
+    }
+    
     
 }
 
