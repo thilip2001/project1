@@ -28,7 +28,7 @@
   
   @media(max-width: 768px){
     .wrapper .form, .wrapper .youtube-box{
-      width: 100%;
+      width: 80%;
     }
   }
   

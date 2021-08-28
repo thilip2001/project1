@@ -60,31 +60,65 @@
     margin-right: 30px;
 
 }
-.urlForm{
-    margin-top: 50px;
-    margin-left: 150px;
-    display: flex;  
-    flex-direction: column;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+
+@media (max-width: 768px){
+    .contentImage{
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .contentFormGroup{
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
     
-}
-.urlInput{
-    width: 500px;
-    margin-left: 150px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    padding: 10px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 10px;
-}
-.urlButton{
-    margin-left: 20px;
-    cursor: pointer;
-    background-color:teal;
-    border: none;
-    color:white;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 16px;
+    }
+    .contentIcon{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        color: rgb(122, 115, 115);
+        cursor: pointer;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .contentInput{
+    
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 8px;
+        width: 60vw;
+        margin-top: 10px;
+    }
+    .contentInput:focus{
+        outline:none;
+        border: none;
+    }
+    .contentText{
+        margin-top: 20px;
+        font-size: 12px;
+        height: 50vh;
+        width: 100%;
+    }
+    .contentSubmit{
+        position: absolute;
+        top: 13px;
+        right:15px;
+        color: white;
+        background-color:teal;
+        padding: 10px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 15px;
+        margin-right: 20px;
+    
+    }
 }
