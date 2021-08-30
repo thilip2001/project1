@@ -6,8 +6,8 @@ import ReactPlayer from "react-player";
  export const Youtube = () => {
     const [youtubeVideo, setYoutubeVideo]=useState('');
 
-    const [youtubeURL, setYoutubeURL] = useState('https://www.youtube.com/watch?v=Ke90Tje7VS0&list=PLTjRvDozrdlw5En5v2xrBr_EqieHf7hGs&index=2');
 
+    const [youtubeURL, setYoutubeURL] = useState('https://www.youtube.com/watch?v=Ke90Tje7VS0&list=PLTjRvDozrdlw5En5v2xrBr_EqieHf7hGs&index=2');
     const [youtubeError,setYoutubeError]=useState('');
     
     const handleYoutubeChange=(e)=>{
